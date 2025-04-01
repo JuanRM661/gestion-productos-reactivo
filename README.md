@@ -67,10 +67,4 @@ Este proyecto permite gestionar productos utilizando una aplicación reactiva de
 
 Aunque en esta versión se ha usado una lista en memoria como persistencia de datos, el sistema está diseñado para integrarse fácilmente con bases de datos reales mediante **Spring Data** en el futuro.
 
-## Posibles Mejoras
-
-1. **Integración con bases de datos reales**: Actualmente se usa una lista en memoria, pero se puede conectar a bases de datos como **MongoDB** o **PostgreSQL** para almacenar los productos.
-2. **Autenticación y autorización**: Se puede implementar un sistema de autenticación basado en **JWT** para restringir el acceso a la API.
-3. **Manejo de errores**: Mejorar el manejo de excepciones y devolver respuestas más detalladas en caso de errores.
-4. **Documentación de la API**: Integrar **Swagger** o una herramienta similar para generar documentación interactiva de la API.
 
